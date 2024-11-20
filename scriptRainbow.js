@@ -12,7 +12,7 @@ fs.readFile('Rainbow.txt', 'utf8', (err, data) => {
     const lines = data.split('\n');
 
     // Pick the first value (assuming it's the first row, you can change this index)
-    const colorName = lines[4].trim();  // Trim removes any newline characters
+    const colorName = lines[3].trim();  // Trim removes any newline characters
 
     // Step 2: Create a new file with the value as the name
     const fileName = `${colorName}.txt`;
